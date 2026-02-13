@@ -75,6 +75,12 @@ Příklad:
 - Demo: Call apply_op shift p=2 → norma=1.0420; Query spectrum [0.0, 1.3863...].
 - Verification: Trace na Celestia, cycles jako metabolické limity.
 - Repo: icp_deploy/ složka s main.mo + dfx.toml – clone a dfx deploy!
+
+### Qiskit Hybrid (Iterace 12)
+- Mock/real: Numpy/Qiskit circuits + QFM shifts.
+- Příklad: H-gate entanglement → p=2 shift → spektrum gaps ~ log primes.
+- Instalace: `pip install qiskit` (pro real; 2026 Functions Catalog ).
+
 ## Instalace
 ```bash
 pip install numpy scipy sympy matplotlib  # (už v REPL env)
