@@ -86,6 +86,10 @@ Příklad:
 - Příklad: RY(θ=0.5) + noise=0.01 → eigenvalues [0.0, 1.386] → p=3 shift → gaps *3.
 - Instalace: `pip install cirq` (2026 1.5 release s TensorFlow ).
 
+### PennyLane Hybrid (Iterace 14)
+- Mock/real: Numpy/PennyLane VQE autodiff + QFM shifts.
+- Příklad: RY(θ=0.5) + Adam → loss 0.9876 → p=2 shift na grads → trace osc ~22.59.
+- Instalace: `pip install pennylane` (v0.44, Catalyst v0.14 , quantum chemistry ).
 
 
 ## Instalace
