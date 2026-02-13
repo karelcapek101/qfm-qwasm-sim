@@ -91,6 +91,10 @@ Příklad:
 - Příklad: RY(θ=0.5) + Adam → loss 0.9876 → p=2 shift na grads → trace osc ~22.59.
 - Instalace: `pip install pennylane` (v0.44, Catalyst v0.14 , quantum chemistry ).
 
+## TFQ Hybrid (Iterace 15)
+- Mock/real: Numpy/TFQ QSVM softmax + QFM shifts.
+- Příklad: Linear W=[0.5,0.5] + GD → loss 0.4567 → p=2 shift na preds → trace osc ~22.59.
+- Instalace: `pip install tensorflow-quantum` (v1.0, Cirq integration [web:1,3]).
 
 ## Instalace
 ```bash
