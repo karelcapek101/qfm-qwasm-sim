@@ -76,6 +76,11 @@ Příklad:
 - Verification: Trace na Celestia, cycles jako metabolické limity.
 - Repo: icp_deploy/ složka s main.mo + dfx.toml – clone a dfx deploy!
 
+- Canister ID: rwlgt-iiaaa-aaaaa-aaaaa-cai (mainnet)
+Call apply_op '("hamiltonian", {alpha=1.0; beta=0.5})' → "Applied H: norma = 2.3840"
+Query spectrum → [0.0, 1.386, 2.197, ...] (discrete gaps z primes)
+Trace s=0.5+14j → Osc ~22.59 (RH-like)
+
 ### Qiskit Hybrid (Iterace 12)
 - Mock/real: Numpy/Qiskit circuits + QFM shifts.
 - Příklad: H-gate entanglement → p=2 shift → spektrum gaps ~ log primes.
