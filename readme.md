@@ -81,6 +81,13 @@ Příklad:
 - Příklad: H-gate entanglement → p=2 shift → spektrum gaps ~ log primes.
 - Instalace: `pip install qiskit` (pro real; 2026 Functions Catalog ).
 
+### Cirq Hybrid (Iterace 13)
+- Mock/real: Numpy/Cirq VQE approx + QFM shifts.
+- Příklad: RY(θ=0.5) + noise=0.01 → eigenvalues [0.0, 1.386] → p=3 shift → gaps *3.
+- Instalace: `pip install cirq` (2026 1.5 release s TensorFlow ).
+
+
+
 ## Instalace
 ```bash
 pip install numpy scipy sympy matplotlib  # (už v REPL env)
