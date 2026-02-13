@@ -63,6 +63,13 @@ Příklad:
 - Juno: "Activated policy 'throttle_metabolic=50' → ID a1b2c3d4"
 - Replay: "Replay Juno: Activation a1b2c3d4"
 
+## Iterace 10: Full Jupyter Dashboard (Interaktivní Vizu)
+- .ipynb: Spektrum plots, trace slider, chain graph, invariants bar, intent/Juno/Kaspa viz.
+- Spusť: `jupyter notebook qfc_dashboard.ipynb` – widgets pro tuning (Im(s), alpha).
+- Demo: SMRK Re/Im eigenvalues, trace osc ~22.59, multichain DiGraph, admissible invariants.
+- Export: HTML pro share – quantum-like explorace celého stacku.
+
+![Dashboard Preview](qfc_dashboard.png)  # Přidej screenshot
 ## Instalace
 ```bash
 pip install numpy scipy sympy matplotlib  # (už v REPL env)
