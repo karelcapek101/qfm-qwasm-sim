@@ -26,6 +26,14 @@ Příklad:
 - Exekuce: shift p=2 + hamiltonian → norma 2.1537
 - Replay: Norma match + Quorum True.
 
+## Iterace 6: Governance Invariants (CMM Žijící Výpočty)
+- Třídy: Topological (locality), Metabolic (cycles), Dynamical (variance).
+- Demo: Admissible steps; trigger responses při violaci (e.g., cooldown).
+- Audit: JSON invariants + responses pro institutional oversight.
+
+Příklad:
+- Step hamiltonian: Metrics admissible, norma=1.1045.
+- Audit: {"invariants": {...}, "responses": {}}.
 ## Instalace
 ```bash
 pip install numpy scipy sympy matplotlib  # (už v REPL env)
