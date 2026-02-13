@@ -44,7 +44,14 @@ Příklad:
 - Step hamiltonian: Metrics admissible, norma=1.1045.
 - Audit: {"invariants": {...}, "responses": {}}.
 
+## Iterace 8: Intent Bridges (ICP Non-Oracular Interface)
+- Canonicalize: Signal 'price=100' → intent 'hamiltonian alpha=1.0'.
+- Admit: Rules check (deterministic, no trust) → NEAR exec.
+- Demo: Admitted → norma=2.3840; Replay: Deterministic match.
+- Trace: {'canonicalized': True, 'commitment': 'abc12345'} pro verification.
 
+Příklad:
+- Signal: price=100 → ICP Bridge: Admitted hamiltonian alpha=1.0 beta=0.5 → NEAR norma=2.3840
 
 
 ## Instalace
