@@ -96,6 +96,11 @@ Příklad:
 - Příklad: Linear W=[0.5,0.5] + GD → loss 0.4567 → p=2 shift na preds → trace osc ~22.59.
 - Instalace: `pip install tensorflow-quantum` (v1.0, Cirq integration [web:1,3]).
 
+ ### Catalyst Compiler Hybrid (Iterace 16)
+- Mock/real: Numpy/Catalyst JIT dekompilace + QFM shifts.
+- Příklad: RY(θ=0.5) JIT depth=3.2 → loss 0.9876 → p=2 shift na gates → trace osc ~22.59.
+- Instalace: `pip install pennylane[catalyst]` (v0.14, PennyLane v0.44 , QRAM/IQP support ).
+
 ## Instalace
 ```bash
 pip install numpy scipy sympy matplotlib  # (už v REPL env)
