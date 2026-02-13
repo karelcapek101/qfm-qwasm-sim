@@ -53,6 +53,15 @@ Příklad:
 Příklad:
 - Signal: price=100 → ICP Bridge: Admitted hamiltonian alpha=1.0 beta=0.5 → NEAR norma=2.3840
 
+## Iterace 9: Juno DAO Governance (Non-Semantic Policy Activation)
+- DAO vote: Approve policy → emit ActivationID (SHA256).
+- Flow: Juno activate → ICP record → Replay verify.
+- Demo: Activated 'throttle_metabolic=50' → ID a1b2c3d4; Quorum Accepted.
+- Global Trace: JSON s activation_id pro steering (no history rewrite).
+
+Příklad:
+- Juno: "Activated policy 'throttle_metabolic=50' → ID a1b2c3d4"
+- Replay: "Replay Juno: Activation a1b2c3d4"
 
 ## Instalace
 ```bash
