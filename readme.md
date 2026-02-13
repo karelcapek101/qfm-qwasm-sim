@@ -106,6 +106,11 @@ Trace s=0.5+14j → Osc ~22.59 (RH-like)
 - Příklad: RY(θ=0.5) JIT depth=3.2 → loss 0.9876 → p=2 shift na gates → trace osc ~22.59.
 - Instalace: `pip install pennylane[catalyst]` (v0.14, PennyLane v0.44 , QRAM/IQP support ).
 
+ ### AGI Agent Propojení (Iterace 17)
+- Operator-first: Decisions z QFM shifts/hamiltonian, reward RH osc stability.
+- Příklad: 10 steps → Converged osc=22.59, var=0.0108 <0.5 (admissible).
+- Instalace: Integruj s Gym (pip install gym) pro env tasks.
+
 ## Instalace
 ```bash
 pip install numpy scipy sympy matplotlib  # (už v REPL env)
