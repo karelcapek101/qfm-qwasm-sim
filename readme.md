@@ -69,7 +69,12 @@ Příklad:
 - Demo: SMRK Re/Im eigenvalues, trace osc ~22.59, multichain DiGraph, admissible invariants.
 - Export: HTML pro share – quantum-like explorace celého stacku.
 
-![Dashboard Preview](qfc_dashboard.png)  # Přidej screenshot
+## Iterace 11: Real ICP Deploy (QFM Canister na Mainnet)
+- Canister: Motoko qfm_core – prime-shift, SMRK eval, governance policy check.
+- Kroky: dfx new/build/deploy --network ic (CLI beta migration z 2026).
+- Demo: Call apply_op shift p=2 → norma=1.0420; Query spectrum [0.0, 1.3863...].
+- Verification: Trace na Celestia, cycles jako metabolické limity.
+- Repo: icp_deploy/ složka s main.mo + dfx.toml – clone a dfx deploy!
 ## Instalace
 ```bash
 pip install numpy scipy sympy matplotlib  # (už v REPL env)
