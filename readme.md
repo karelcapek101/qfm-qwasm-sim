@@ -31,9 +31,22 @@ Příklad:
 - Demo: Admissible steps; trigger responses při violaci (e.g., cooldown).
 - Audit: JSON invariants + responses pro institutional oversight.
 
+## Iterace 7: Kaspa Anchoring (Temporal Evidence)
+- Mock DAG: Hash commitment → anchor (SHA256, linked k parent).
+- Flow: NEAR → ICP → Celestia → Kaspa anchor → Replay verify.
+- Demo: Anchored trace_123 to b069c1e4; Verified → b069c1e4.
+- Global Trace: JSON s anchor_hash pro evidence (optional, non-blocking).
+
+Příklad:
+- Anchor: "Anchored trace_123 to b069c1e4 (parent: genesis)"
+- Replay: "Replay Kaspa: Verified b069c1e4"
 Příklad:
 - Step hamiltonian: Metrics admissible, norma=1.1045.
 - Audit: {"invariants": {...}, "responses": {}}.
+
+
+
+
 ## Instalace
 ```bash
 pip install numpy scipy sympy matplotlib  # (už v REPL env)
