@@ -17,7 +17,14 @@ Quantum-like computing framework inspired by QFM/QVM stack (Books I–V, 101rese
 - Demo: Norma po shift=0.9713, po H=2.1470; Trace: smooth=-0.1252, osc=22.5904.
 - Audit: Ukládá instructions pro replay.
 
-Příklad QWASM:
+## Iterace 5: Multichain Replay (ICP-like Sim)
+- Flow: NEAR QWASM exec → ICP quorum → Celestia trace store → Replay verify.
+- Demo: NEAR norma=2.1537, ICP Accepted, Celestia trace_0; Replay match.
+- Global Trace: JSON commitment pro audit (QVM C = H(TraceID)).
+
+Příklad:
+- Exekuce: shift p=2 + hamiltonian → norma 2.1537
+- Replay: Norma match + Quorum True.
 
 ## Instalace
 ```bash
