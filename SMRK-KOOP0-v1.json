@@ -1,0 +1,24 @@
+{
+  "SpecID": "SMRK-KOOP0-v1",
+  "ObservableDecl": {
+    "DictType": "poly-monomials-v1",
+    "m": 16,
+    "OrderSpec": "lexicographic"
+  },
+  "EvolutionDecl": {
+    "PhiType": "generator",
+    "PhiSource": "SMRK-Hamiltonian",
+    "Delta": 1
+  },
+  "KoopClass": "KOP2",
+  "DiagReport": {
+    "D_rec": 0.012,  // Příklad rekonstrukce z evals
+    "D_cond": 1.2e6
+  },
+  "SpectralSummary": {
+    "trace_t0.1": 248.8848,
+    "evals_top5": [2.792, 2.708, 2.348, 1.911, 0.739]
+  },
+  "Commitment": "a1b2c3d4e5f67890",
+  "Cert": ["V1", "V2", "V3", "V4", "V5", "V6"]
+}
